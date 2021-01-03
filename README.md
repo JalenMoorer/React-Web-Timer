@@ -1,7 +1,7 @@
 # Koala - Web Engineering Challenge
 
 ### Implementation
-The way this project was approached was to create a basic countdown timer that renders a theme that gets fetched from the api or a default one as a fallback.  Once the application receives a theme, it renders the timer.  From there, a user can modify the value of the timer and initiate it.  After the timer initiates, it will countdown to zero in 1 second increments unless paused or restarted.  Once it finishes, a browser alert will notify the user that the timer is finished and the user can re-initiate it using the same value as before or a different one if changed.
+The way this project was approached was to create a basic countdown timer that renders a theme that gets fetched from the api or a default one as a fallback.  Once the application receives a theme, it renders the timer.  From there, a user can modify the value of the timer and initiate it.  After the timer initiates, it will countdown to zero in 1 second intervals unless paused or restarted.  Once it finishes, a browser alert will notify the user that the timer is finished and the user can re-initiate it using the same value as before or a different one if changed.
 
 ### Depedencies Used
 - React.js
